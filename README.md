@@ -503,7 +503,8 @@ This is a bug fix only release to address the following four issues.
       For example, if you detect lower color values than expected, you can increase the gain.
     * The gain value is only applied to the argb() and getNormalizedColors() methods, not to the raw color methods.
       The getNormalizedColors() method is recommended for ease-of-use and clarity, since argb() has to be converted.
-    * Updates SensorColor Java sample to demonstrate gain usage
+    * Updates 
+    * SensorColor Java sample to demonstrate gain usage
 * Merges SensorREVColorDistance Java sample into SensorColor Java sample, which showcases best practices for all color sensors
 * Improves retrieving values from the REV Color Sensor V3
     * Updates the normalization calculation of the RGB channels
