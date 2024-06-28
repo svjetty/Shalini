@@ -178,7 +178,7 @@ public class ZetaAPOC extends LinearOpMode {
             if (togglea){
                 arm.setPosition(1);
             } else {
-                arm.setPosition(0.45);
+                arm.setPosition(0.4);
             }
 
             //OUTTAKE ROTATE SERVO BUTTON POSITIONS
